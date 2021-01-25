@@ -1,14 +1,14 @@
-import React from "react";
 import "./style.css";
 
-function CardBtn(props) {
+function Sort({ sort }) {
   return (
-    <button 
-      onClick={props.onClick} 
-      className={`card-btn ${props["data-value"]}`} 
-      data-value={props["data-value"]} 
-    />
+    <button type="submit" 
+    className="btn btn-info" 
+    onClick={sort}>
+      
+    Sort
+    </button>
   );
 }
 
-export default CardBtn;
+export default Sort;
