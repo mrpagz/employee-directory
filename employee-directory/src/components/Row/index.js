@@ -1,7 +1,12 @@
-import React from "react";
-
 function Row(props) {
-  return <div className="row">{props.children}</div>;
+  return props.users.map((user) => (
+    <tr key={user.email}>
+      <td>{user.name.first}</td>
+      <td>{user.name.last}</td>
+      <td>{user.email}</td>
+      <td>{user.location.state}</td>
+    </tr>
+  ));
 }
 
 export default Row;
