@@ -1,5 +1,5 @@
 import "./style.css"
-import Sort from "../SortBtn";
+import Sort from "../SortButton";
 
 function Table(props) {
     return (

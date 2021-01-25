@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import "./style.css";
 
 function Header({ input, setInput }) {

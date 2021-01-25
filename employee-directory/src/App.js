@@ -1,12 +1,13 @@
+// eslint-disable-next-line
 // this is to disable eslint
 /* eslint-disable */ 
 
-import Header from "./components/Header/index";
+import Header from "./components/Heading/index";
 import Table from "./components/Table/index";
 import Container from "./components/Container/index";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import TableRow from "./components/TableRow";
+import TableRow from "./components/Row";
 
 
 
