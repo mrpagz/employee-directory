@@ -4,8 +4,6 @@
   This application allows the user to view, search and sort employee information in a table format. The application uses React components to render the html. Api used is from Random User API for random employee list
   # Table of Contents 
   * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
